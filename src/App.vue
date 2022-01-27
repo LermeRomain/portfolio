@@ -1,17 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <NavBar/>
+    <Welcome/>
+    <Tech/>
+    <test/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar.vue'
+import Welcome from "./components/Welcome.vue";
+import Tech from "@/components/Tech";
+import Test from "@/components/test";
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Test,
+    Tech,
+    Welcome,
+    NavBar
   }
 }
 </script>
@@ -23,6 +33,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
