@@ -84,14 +84,14 @@ export default {
 
 h1 {
   text-transform: uppercase;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 700;
   letter-spacing: 4px;
 }
 
 h2 {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   color: #90acd1;
   letter-spacing: 4px;
@@ -99,7 +99,7 @@ h2 {
 
 h3 {
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 4rem;
   font-weight: 700;
   color: white;
   letter-spacing: 4px;
