@@ -1,19 +1,14 @@
 <template>
   <div class="has-background-success">
-    <section class="section is-small">
+    <section class="section is-medium">
       <div class="columns">
         <div class="column is-5">
           <a href="https://associ.fr/" target="_blank">
             <div class="card">
               <div class="card-image">
-                <figure class="image is-5by3">
-                  <div class="load">
-                    <hr/>
-                    <hr/>
-                    <hr/>
-                    <hr/>
-                  </div>
-                </figure>
+<!--                <figure class="is-align-items-center">
+                    <img src="../assets/associ.png">
+                </figure>-->
               </div>
               <div class="card-content">
                 <div class="media">
@@ -44,14 +39,9 @@
           <a href="https://khadiandco.com/" target="_blank">
             <div class="card">
               <div class="card-image">
-                <figure class="image is-5by3">
-                  <div class="load">
-                    <hr/>
-                    <hr/>
-                    <hr/>
-                    <hr/>
-                  </div>
-                </figure>
+<!--                <figure class="is-align-items-center">
+                  <img src="../assets/khadi.png">
+                </figure>-->
               </div>
               <div class="card-content">
                 <div class="media">
@@ -82,14 +72,9 @@
           <a href="https://github.com/LermeRomain/facebook" target="_blank">
             <div class="card">
               <div class="card-image">
-                <figure class="image is-5by3">
-                  <div class="load">
-                    <hr/>
-                    <hr/>
-                    <hr/>
-                    <hr/>
-                  </div>
-                </figure>
+<!--                <figure class="is-align-items-center">
+                  <img src="../assets/fakebook.png">
+                </figure>-->
               </div>
               <div class="card-content">
                 <div class="media">
@@ -118,20 +103,20 @@
         <div class="column is-5">
           <div class="card">
             <div class="card-image">
-              <figure class="image is-5by3">
-                <div class="load">
-                  <hr/>
-                  <hr/>
-                  <hr/>
-                  <hr/>
-                </div>
-              </figure>
+<!--              <figure class="image is-5by3">
+
+              </figure>-->
             </div>
             <div class="card-content">
               <div class="media">
                 <div class="media-left">
                   <figure class="image is-48x48">
-                    <img src="../assets/symfony_black.png" alt="Placeholder image">
+                    <div class="load">
+                      <hr/>
+                      <hr/>
+                      <hr/>
+                      <hr/>
+                    </div>
                   </figure>
                 </div>
                 <div class="media-content">
@@ -174,20 +159,9 @@ body {
 }
 
 .card{
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
-.card-image{
-  border-radius: 50px;
-}
-
-img{
-  border-radius: 50px;
-}
-
-.figure{
-  border: 50px;
-}
 
 .load {
   position: absolute;
@@ -195,8 +169,8 @@ img{
   left: 50%;
   transform: translate(-50%, -50%);
   /*change these sizes to fit into your project*/
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 }
 
 .load hr {
