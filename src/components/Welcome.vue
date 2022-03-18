@@ -1,5 +1,5 @@
 <template>
-  <div class="has-background-black">
+  <div class="has-background">
     <section class="section is-large">
       <h1 class="subtitle has-text-white"><span>Romain</span> Lerme</h1>
       <h2 class="subtitle has-text-white">
@@ -81,6 +81,10 @@ export default {
 </script>
 
 <style scoped>
+
+.has-background{
+  background: rgb(0,0,0);
+}
 
 h1 {
   text-transform: uppercase;
