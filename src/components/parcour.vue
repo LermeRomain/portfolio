@@ -58,7 +58,7 @@ export default {
 <style scoped>
 
 .column{
-  margin-top: 2rem;
+  padding-top: 2rem;
 }
 
 .has-background{

@@ -2,12 +2,17 @@
   <div class="has-background-success">
     <section class="section is-small">
       <div class="columns">
-        <div class="column is-4">
+        <div class="column is-5">
           <a href="https://associ.fr/" target="_blank">
             <div class="card">
               <div class="card-image">
                 <figure class="image is-5by3">
-                  <img src="../assets/associ.png" alt="Placeholder image">
+                  <div class="load">
+                    <hr/>
+                    <hr/>
+                    <hr/>
+                    <hr/>
+                  </div>
                 </figure>
               </div>
               <div class="card-content">
@@ -35,12 +40,17 @@
         </div>
         <div class="column">
         </div>
-        <div class="column is-4">
+        <div class="column is-5">
           <a href="https://khadiandco.com/" target="_blank">
             <div class="card">
               <div class="card-image">
                 <figure class="image is-5by3">
-                  <img src="../assets/khadi.png" alt="Placeholder image">
+                  <div class="load">
+                    <hr/>
+                    <hr/>
+                    <hr/>
+                    <hr/>
+                  </div>
                 </figure>
               </div>
               <div class="card-content">
@@ -68,12 +78,17 @@
         </div>
       </div>
       <div class="columns">
-        <div class="column is-4">
+        <div class="column is-5">
           <a href="https://github.com/LermeRomain/facebook" target="_blank">
             <div class="card">
               <div class="card-image">
                 <figure class="image is-5by3">
-                  <img src="../assets/fakebook.png" alt="Placeholder image">
+                  <div class="load">
+                    <hr/>
+                    <hr/>
+                    <hr/>
+                    <hr/>
+                  </div>
                 </figure>
               </div>
               <div class="card-content">
@@ -100,7 +115,7 @@
           </a>
         </div>
         <div class="column"></div>
-        <div class="column is-4">
+        <div class="column is-5">
           <div class="card">
             <div class="card-image">
               <figure class="image is-5by3">
@@ -147,10 +162,7 @@ export default {
 </script>
 
 <style scoped>
-img {
-  width: 100%;
-  margin-bottom: -10px;
-}
+
 
 h2 {
   background: white;
@@ -158,7 +170,23 @@ h2 {
 
 
 body {
-  background: #ECF0F1
+  background: #ECF0F1;
+}
+
+.card{
+  border-radius: 50px;
+}
+
+.card-image{
+  border-radius: 50px;
+}
+
+img{
+  border-radius: 50px;
+}
+
+.figure{
+  border: 50px;
 }
 
 .load {
