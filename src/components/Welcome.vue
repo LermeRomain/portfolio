@@ -37,7 +37,7 @@ export default {
     return {
       typeValue: '',
       typeStatus: false,
-      typeArray: ['fun', 'passionné', 'Dev'],
+      typeArray: ['passionné', 'Dev'],
       typingSpeed: 200,
       erasingSpeed: 100,
       newTextDelay: 2000,
@@ -103,7 +103,7 @@ h2 {
 
 h3 {
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 700;
   color: white;
   letter-spacing: 4px;
