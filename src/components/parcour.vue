@@ -26,17 +26,6 @@ export default {
   padding-top: 2rem;
 }
 
-.button {
-  background: #485fc7;
-  color: white;
-  border: none;
-  border-radius: 50px;
-}
-
-.button:hover {
-  color: #48c78e;
-}
-
 a{
   margin: 2rem;
   color: #48c78e;

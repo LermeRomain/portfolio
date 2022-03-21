@@ -13,17 +13,15 @@ export default {
 
 <style scoped>
 
-footer{
-  background-color: white;
+.button {
+  background: #485fc7;
+  color: white;
+  border: none;
+  border-radius: 50px;
 }
 
-a{
-  margin: 2rem;
+.button:hover {
   color: #48c78e;
-}
-
-a:hover{
-  opacity: 90%;
 }
 
 </style>
