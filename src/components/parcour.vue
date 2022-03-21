@@ -36,7 +36,6 @@ export default {
 }
 
 .button:hover {
-  color: white;
   opacity: 90%;
 }
 
