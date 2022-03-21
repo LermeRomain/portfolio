@@ -1,5 +1,5 @@
 <template>
-  <div class="has-background">
+  <div class="has-background-success">
     <div class="columns">
       <div class="column"></div>
       <div class="column"></div>
@@ -28,10 +28,13 @@ export default {
 
 a{
   margin: 2rem;
-  color: #48c78e;
+  color: white;
 }
 
 a:hover{
-  color: #48c78e;
+  color: white;
+  transform: scale(1.1);
+  transition: 350ms;
 }
+
 </style>

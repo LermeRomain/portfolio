@@ -1,5 +1,5 @@
 <template>
-  <div class="has-background">
+  <div class="bg-img">
     <section class="section is-large">
       <h1 class="subtitle has-text-white"><span>Romain</span> Lerme</h1>
       <h2 class="subtitle has-text-white">
@@ -23,6 +23,7 @@
         <p>Je suis actuellement en Master 1 spécialité dévelopement web</p>
         <a name="welcome"></a>
       </h2>
+      <a class="fa-solid fa-arrow-down fa-4x smooth-scroll" href="#tech" style="scroll-behavior: smooth;"></a>
     </section>
   </div>
 </template>
@@ -40,7 +41,7 @@ export default {
       typeArray: ['passionné', 'Dev'],
       typingSpeed: 200,
       erasingSpeed: 100,
-      newTextDelay: 2000,
+      newTextDelay: 1000,
       typeArrayIndex: 0,
       charIndex: 0
     }
@@ -83,8 +84,18 @@ export default {
 
 <style scoped>
 
+html {
+  scroll-behavior: smooth;
+}
+
 .has-background{
   background: rgb(0,0,0);
+}
+
+p{
+  text-transform: none;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
 }
 
 h1 {
@@ -110,12 +121,27 @@ h3 {
   padding-bottom: 3%;
 }
 
-img {
-  width: 62%;
-  border-radius: 20%;
-}
-
 span {
   color: #3cae85;
+}
+
+a{
+  color: #3cae85;
+}
+
+a:hover{
+  color: #3cae85;
+}
+
+.bg-img {
+  background-image: url(../assets/background.jpg) ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+}
+
+.fa-arrow-down{
+  margin-top: 5rem;
 }
 </style>

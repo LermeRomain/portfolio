@@ -1,7 +1,9 @@
 <template>
-  <div class="column">
-    <a href="https://drive.google.com/file/d/1Ui0QTIbDM1weo0roL2NjBECs2Tzx39Ei/view?usp=sharing" target="_blank"
-       class="button is-success is-large is-responsive" name="footer">Télécharger le CV</a>
+  <div class="has-background-success">
+    <div class="column">
+      <a href="https://drive.google.com/file/d/1Ui0QTIbDM1weo0roL2NjBECs2Tzx39Ei/view?usp=sharing" target="_blank"
+         class="button is-large is-responsive" name="footer">Télécharger le CV</a>
+    </div>
   </div>
 </template>
 
@@ -13,15 +15,17 @@ export default {
 
 <style scoped>
 
+
 .button {
-  background: #485fc7;
-  color: white;
+  background: white;
+  color: #3cae85;
   border: none;
-  border-radius: 50px;
 }
 
 .button:hover {
-  color: #48c78e;
+  color: #3cae85;
+  transform: scale(1.1);
+  transition: 350ms;
 }
 
 </style>

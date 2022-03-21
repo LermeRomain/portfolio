@@ -1,33 +1,29 @@
 <template name="tech">
-  <div class="has-background-success">
+  <div class="has-background">
     <a name="tech"></a>
-    <section class="section is-large">
+    <section class="section is-medium">
       <h1 class="title">Mes projets</h1>
       <div class="columns">
         <div class="column is-3">
           <a href="https://associ.fr/" target="_blank">
             <div class="card">
               <div class="card-image">
-                <!--                <figure class="is-align-items-center">
-                                    <img src="../assets/associ.png">
-                                </figure>-->
+                <figure class="is-align-items-center">
+                  <img src="../assets/associ.png">
+                </figure>
               </div>
               <div class="card-content">
                 <div class="media">
-                  <div class="media-left">
-                    <figure class="image is-48x48">
-                      <img src="../assets/logo.png" alt="Placeholder image">
-                    </figure>
-                  </div>
                   <div class="media-content">
-                    <p class="title is-4">Associ</p>
+                    <p class="title is-4 has-text-left">Associ</p>
                   </div>
                 </div>
 
-                <div class="content">
-                  Création d'une plateforme pour informer, aider et accompagner les jeunes qui souhaitent se lancer dans
-                  la création d'une association.
+                <div class="content has-text-left">
+                  Création d'une plateforme pour informer, aider et accompagner les jeunes novices qui souhaitent se lancer dans
+                  la création d'une association.<br><br>
                   <a href="#">#Vuejs</a>
+                  <br>
                   <br>
                   <time datetime="2016-1-1">15:23 PM - 17 Juin 2021</time>
                 </div>
@@ -41,26 +37,22 @@
           <a href="https://khadiandco.com/" target="_blank">
             <div class="card">
               <div class="card-image">
-                <!--                <figure class="is-align-items-center">
-                                  <img src="../assets/khadi.png">
-                                </figure>-->
+                <figure class="is-align-items-center">
+                  <img src="../assets/khadi.png">
+                </figure>
               </div>
               <div class="card-content">
                 <div class="media">
-                  <div class="media-left">
-                    <figure class="image is-48x48">
-                      <img src="../assets/wordpress.png" alt="Placeholder image">
-                    </figure>
-                  </div>
                   <div class="media-content">
-                    <p class="title is-4">Khadi&Co</p>
+                    <p class="title is-4 has-text-left">Khadi&Co</p>
                   </div>
                 </div>
 
-                <div class="content">
+                <div class="content has-text-left">
                   Avec le confinement il a fallu s'adapter et donc créer une boutique e-commerce pour continuer à faire
-                  vivre l'entreprise et satisfaire les clients.
+                  vivre l'entreprise et satisfaire les clients.<br><br>
                   <a href="#">#Wordpress</a> <a href="#">#e-commerce</a>
+                  <br>
                   <br>
                   <time datetime="2016-1-1">17:46 PM - 15 Sept 2021</time>
                 </div>
@@ -72,26 +64,22 @@
           <a href="https://github.com/LermeRomain/facebook" target="_blank">
             <div class="card">
               <div class="card-image">
-                <!--                <figure class="is-align-items-center">
-                                  <img src="../assets/fakebook.png">
-                                </figure>-->
+                <figure class="is-align-items-center">
+                  <img src="../assets/fakebook.png">
+                </figure>
               </div>
               <div class="card-content">
                 <div class="media">
-                  <div class="media-left">
-                    <figure class="image is-48x48">
-                      <img src="../assets/symfony_black.png" alt="Placeholder image">
-                    </figure>
-                  </div>
                   <div class="media-content">
-                    <p class="title is-4">Fakebook</p>
+                    <p class="title is-4 has-text-left">Fakebook</p>
                   </div>
                 </div>
 
-                <div class="content">
+                <div class="content has-text-left">
                   Le but était de créer un réseau social permettant de poster, modifier son profil et voir le profil
-                  des autres utilisateurs ayant un compte.
+                  des autres utilisateurs ayant un compte.<br><br>
                   <a href="#">#Symfony</a> <a href="#">#PHP</a>
+                  <br>
                   <br>
                   <time datetime="2016-1-1">11:09 AM - 25 Nov 2021</time>
                 </div>
@@ -103,33 +91,22 @@
         <div class="column is-3">
           <div class="card">
             <div class="card-image">
-              <!--              <figure class="image is-5by3">
-
-                            </figure>-->
+              <figure class="is-align-items-center">
+                <img src="../assets/ongoing.jpg">
+              </figure>
             </div>
-            <div class="card-content">
+            <div class="card-content ongoing">
               <div class="media">
-                <div class="media-left">
-                  <figure class="image is-48x48">
-                    <div class="load">
-                      <hr/>
-                      <hr/>
-                      <hr/>
-                      <hr/>
-                    </div>
-                  </figure>
-                </div>
                 <div class="media-content">
-                  <p class="title is-4">Moteur E-commerce</p>
-                  <p class="subtitle is-6">On going</p>
+                  <p class="title is-4 has-text-left">Moteur E-commerce</p>
                 </div>
               </div>
 
-              <div class="content">
+              <div class="content has-text-left">
                 Créer un moteur de e-commerce, donc pouvoir ajouter retirer et modifier des articles, ainsi que de les
-                vendre et de gérer les transactions.
+                vendre et de gérer les transactions.<br><br>
                 <a href="#">#Symfony</a> <a href="#">#e-commerce</a>
-                <br>
+                <br><br>
                 <time datetime="2016-1-1">14:10 PM - 14 Mars 2022</time>
               </div>
             </div>
@@ -149,10 +126,15 @@ export default {
 <style scoped>
 
 
+.has-background{
+  background-color: #fafafa;
+}
+
 h1 {
   text-transform: uppercase;
   font-size: 4rem;
   font-weight: 700;
+  color: black;
 }
 
 h2 {
@@ -165,62 +147,15 @@ body {
 }
 
 .card {
-  border-radius: 20px;
-  height: 20rem;
+  margin-top: 5rem;
 }
 
-
-.load {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /*change these sizes to fit into your project*/
-  width: 50px;
-  height: 50px;
+.card:hover{
+  transform: scale(1.05);
+  transition-duration: 350ms;
 }
 
-.load hr {
-  border: 0;
-  margin: 0;
-  width: 40%;
-  height: 40%;
-  position: absolute;
-  border-radius: 50%;
-  animation: spin 2s ease infinite
-}
-
-.load :first-child {
-  background: #19A68C;
-  animation-delay: -1.5s
-}
-
-.load :nth-child(2) {
-  background: black;
-  animation-delay: -1s
-}
-
-.load :nth-child(3) {
-  background: #19A68C;
-  animation-delay: -0.5s
-}
-
-.load :last-child {
-  background: black
-}
-
-@keyframes spin {
-  0%, 100% {
-    transform: translate(0)
-  }
-  25% {
-    transform: translate(160%)
-  }
-  50% {
-    transform: translate(160%, 160%)
-  }
-  75% {
-    transform: translate(0, 160%)
-  }
+.ongoing{
+  background-color: #fafafa;
 }
 </style>
