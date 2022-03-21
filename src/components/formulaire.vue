@@ -1,10 +1,8 @@
 <template>
-  <footer class="footer is-small">
-    <div class="content has-text-centered">
-      <a class="fa-solid fa-envelope fa-5x"></a>
-      <a class="fa-brands fa-github fa-5x"></a>
-    </div>
-  </footer>
+  <div class="column">
+    <a href="https://drive.google.com/file/d/1Ui0QTIbDM1weo0roL2NjBECs2Tzx39Ei/view?usp=sharing" target="_blank"
+       class="button is-success is-large is-responsive" name="footer">Télécharger le CV</a>
+  </div>
 </template>
 
 <script>

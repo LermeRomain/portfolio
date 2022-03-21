@@ -1,15 +1,16 @@
 <template name="tech">
   <div class="has-background-success">
     <a name="tech"></a>
-    <section class="section is-medium">
+    <section class="section is-large">
+      <h1 class="title">Mes projets</h1>
       <div class="columns">
-        <div class="column is-5">
+        <div class="column is-3">
           <a href="https://associ.fr/" target="_blank">
             <div class="card">
               <div class="card-image">
-<!--                <figure class="is-align-items-center">
-                    <img src="../assets/associ.png">
-                </figure>-->
+                <!--                <figure class="is-align-items-center">
+                                    <img src="../assets/associ.png">
+                                </figure>-->
               </div>
               <div class="card-content">
                 <div class="media">
@@ -36,13 +37,13 @@
         </div>
         <div class="column">
         </div>
-        <div class="column is-5">
+        <div class="column is-3">
           <a href="https://khadiandco.com/" target="_blank">
             <div class="card">
               <div class="card-image">
-<!--                <figure class="is-align-items-center">
-                  <img src="../assets/khadi.png">
-                </figure>-->
+                <!--                <figure class="is-align-items-center">
+                                  <img src="../assets/khadi.png">
+                                </figure>-->
               </div>
               <div class="card-content">
                 <div class="media">
@@ -67,15 +68,13 @@
             </div>
           </a>
         </div>
-      </div>
-      <div class="columns">
-        <div class="column is-5">
+        <div class="column is-3">
           <a href="https://github.com/LermeRomain/facebook" target="_blank">
             <div class="card">
               <div class="card-image">
-<!--                <figure class="is-align-items-center">
-                  <img src="../assets/fakebook.png">
-                </figure>-->
+                <!--                <figure class="is-align-items-center">
+                                  <img src="../assets/fakebook.png">
+                                </figure>-->
               </div>
               <div class="card-content">
                 <div class="media">
@@ -101,12 +100,12 @@
           </a>
         </div>
         <div class="column"></div>
-        <div class="column is-5">
+        <div class="column is-3">
           <div class="card">
             <div class="card-image">
-<!--              <figure class="image is-5by3">
+              <!--              <figure class="image is-5by3">
 
-              </figure>-->
+                            </figure>-->
             </div>
             <div class="card-content">
               <div class="media">
@@ -150,6 +149,12 @@ export default {
 <style scoped>
 
 
+h1 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
 h2 {
   background: white;
 }
@@ -159,8 +164,9 @@ body {
   background: white;
 }
 
-.card{
+.card {
   border-radius: 20px;
+  height: 20rem;
 }
 
 

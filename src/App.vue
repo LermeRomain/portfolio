@@ -5,6 +5,7 @@
     <NavBar/>
     <Welcome/>
     <Tech/>
+    <formulaire />
     <parcour/>
   </div>
 </template>
@@ -14,10 +15,12 @@ import NavBar from './components/NavBar.vue'
 import Welcome from "./components/Welcome.vue";
 import Tech from "@/components/Tech";
 import Parcour from "@/components/parcour";
+import Formulaire from "@/components/formulaire";
 
 export default {
   name: 'App',
   components: {
+    Formulaire,
     Parcour,
     Tech,
     Welcome,

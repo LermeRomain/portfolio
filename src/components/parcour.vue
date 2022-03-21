@@ -1,10 +1,8 @@
 <template>
   <div class="has-background">
     <div class="columns">
-      <div class="column">
-        <a href="https://drive.google.com/file/d/1Ui0QTIbDM1weo0roL2NjBECs2Tzx39Ei/view?usp=sharing" target="_blank"
-           class="button is-success is-large is-responsive" name="footer">Télécharger le CV</a>
-      </div>
+      <div class="column"></div>
+      <div class="column"></div>
       <div class="column"><div class="content has-text-centered">
         <a class="fa-solid fa-envelope fa-3x" href="mailto:romainlerme@hotmail.fr"></a>
         <a class="fa-brands fa-github fa-3x" href="https://github.com/LermeRomain" target="_blank"></a>
