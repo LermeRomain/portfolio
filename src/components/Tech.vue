@@ -155,7 +155,7 @@ h2 {
 
 
 body {
-  background: #ECF0F1;
+  background: white;
 }
 
 .card{
