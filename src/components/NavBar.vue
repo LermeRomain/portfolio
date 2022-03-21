@@ -12,9 +12,6 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-end has">
-        <a class="navbar-item has-text-white has-background-black" href="welcome">
-          Home
-        </a>
 
         <a class="navbar-item has-text-white has-background-black" href="#tech">
           Projets
