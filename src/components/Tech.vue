@@ -1,5 +1,6 @@
-<template>
+<template name="tech">
   <div class="has-background-success">
+    <a name="tech"></a>
     <section class="section is-medium">
       <div class="columns">
         <div class="column is-5">
@@ -23,11 +24,11 @@
                 </div>
 
                 <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                  <a href="#">#css</a> <a href="#">#responsive</a>
+                  Création d'une plateforme pour informer, aider et accompagner les jeunes qui souhaitent se lancer dans
+                  la création d'une association.
+                  <a href="#">#Vuejs</a>
                   <br>
-                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  <time datetime="2016-1-1">15:23 PM - 17 Juin 2021</time>
                 </div>
               </div>
             </div>
@@ -56,11 +57,11 @@
                 </div>
 
                 <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                  <a href="#">#css</a> <a href="#">#responsive</a>
+                  Avec le confinement il a fallu s'adapter et donc créer une boutique e-commerce pour continuer à faire
+                  vivre l'entreprise et satisfaire les clients.
+                  <a href="#">#Wordpress</a> <a href="#">#e-commerce</a>
                   <br>
-                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  <time datetime="2016-1-1">17:46 PM - 15 Sept 2021</time>
                 </div>
               </div>
             </div>
@@ -89,11 +90,11 @@
                 </div>
 
                 <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                  <a href="#">#css</a> <a href="#">#responsive</a>
+                  Le but était de créer un réseau social permettant de poster, modifier son profil et voir le profil
+                  des autres utilisateurs ayant un compte.
+                  <a href="#">#Symfony</a> <a href="#">#PHP</a>
                   <br>
-                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  <time datetime="2016-1-1">11:09 AM - 25 Nov 2021</time>
                 </div>
               </div>
             </div>
@@ -126,11 +127,11 @@
               </div>
 
               <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                <a href="#">#css</a> <a href="#">#responsive</a>
+                Créer un moteur de e-commerce, donc pouvoir ajouter retirer et modifier des articles, ainsi que de les
+                vendre et de gérer les transactions.
+                <a href="#">#Symfony</a> <a href="#">#e-commerce</a>
                 <br>
-                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                <time datetime="2016-1-1">14:10 PM - 14 Mars 2022</time>
               </div>
             </div>
           </div>

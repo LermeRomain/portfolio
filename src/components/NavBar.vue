@@ -12,12 +12,16 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-end has">
-        <a class="navbar-item has-text-white has-background-black">
+        <a class="navbar-item has-text-white has-background-black" href="welcome">
           Home
         </a>
 
-        <a class="navbar-item has-text-white has-background-black">
-          Documentation
+        <a class="navbar-item has-text-white has-background-black" href="#tech">
+          Projets
+        </a>
+
+        <a class="navbar-item has-text-white has-background-black" href="#footer">
+          CV et liens
         </a>
       </div>
     </div>

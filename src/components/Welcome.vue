@@ -16,11 +16,12 @@
                         :erase-on-complete='false'
                         caret-animation='expand'
                     ></vue-typer>-->
-            <h3>Coding is
+            <h3>Je suis
               <span class="typed-text">{{ typeValue }}</span>
               <span class="cursor" :class="{'typing': typeStatus}"></span>
             </h3>
         <p>Je suis actuellement en Master 1 spécialité dévelopement web</p>
+        <a name="welcome"></a>
       </h2>
     </section>
   </div>
@@ -36,7 +37,7 @@ export default {
     return {
       typeValue: '',
       typeStatus: false,
-      typeArray: ['fun', 'awesome', 'a journey', 'life'],
+      typeArray: ['fun', 'passionné', 'Dev'],
       typingSpeed: 200,
       erasingSpeed: 100,
       newTextDelay: 2000,

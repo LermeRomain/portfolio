@@ -1,10 +1,15 @@
 <template>
   <div class="has-background">
     <div class="columns">
-      <div class="column"></div>
       <div class="column">
-        <a class="btn" href="src/assets/CV Romain Lerme.pdf" download> Télécharger</a>
+        <a href="https://drive.google.com/file/d/1Ui0QTIbDM1weo0roL2NjBECs2Tzx39Ei/view?usp=sharing" target="_blank"
+           class="button is-success is-large is-responsive" name="footer">Télécharger le CV</a>
       </div>
+      <div class="column"><div class="content has-text-centered">
+        <a class="fa-solid fa-envelope fa-3x" href="mailto:romainlerme@hotmail.fr"></a>
+        <a class="fa-brands fa-github fa-3x" href="https://github.com/LermeRomain" target="_blank"></a>
+        <a class="fa-brands fa-linkedin fa-3x" href="https://www.linkedin.com/in/romain-lerme-a43297171/" target="_blank"></a>
+      </div></div>
     </div>
   </div>
 </template>
@@ -23,8 +28,25 @@ export default {
   padding-top: 2rem;
 }
 
-.has-background {
-  background: rgb(0, 0, 0);
+.button {
+  background: #485fc7;
+  color: white;
+  border: none;
+  border-radius: 50px;
 }
 
+.button:hover {
+  color: white;
+  opacity: 90%;
+}
+
+a{
+  margin: 2rem;
+  color: #48c78e;
+}
+
+a:hover{
+  opacity: 90%;
+  color: #48c78e;
+}
 </style>

@@ -15,14 +15,13 @@ import Welcome from "./components/Welcome.vue";
 import Tech from "@/components/Tech";
 import Parcour from "@/components/parcour";
 
-
 export default {
   name: 'App',
   components: {
     Parcour,
     Tech,
     Welcome,
-    NavBar
+    NavBar,
   }
 }
 </script>
