@@ -100,7 +100,7 @@ p{
 
 h1 {
   text-transform: uppercase;
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: 700;
 }
 
