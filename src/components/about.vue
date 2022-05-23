@@ -115,7 +115,7 @@ h1 {
 
 h5 {
   color: white;
-  opacity: 80%;
+  opacity: 20%;
   text-align: left;
 }
 
