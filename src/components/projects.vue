@@ -125,6 +125,7 @@ h4 {
   background-attachment: fixed;
   background-size:  cover;
   border-radius: 10px;
+  margin: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
