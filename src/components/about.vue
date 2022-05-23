@@ -9,12 +9,12 @@
       </div>
       <div class="column is-7">
         <h1 class="title is-1">About Me</h1>
-        <h5 class="subtitle is-5">Actuellement en master tech lead chef de projet digital, je suis à la recherche de
+        <p class="subtitle is-5">Actuellement en master tech lead chef de projet digital, je suis à la recherche de
           ma prochaine alternance dans le milieu du développement web. Fort de
           plusieurs années dans le milieu du digital et du développement j ai pu me former
           dans des entreprises très différentes allant de la multinationale, à la TPE. Je suis
           donc à la recherche d'une nouvelle opportunité qui me permettra d'apprendre
-          encore plus sur ce milieu qui me passionne.</h5>
+          encore plus sur ce milieu qui me passionne.</p>
 
         <!--          <ul>
                     <li @click.prevent="nextStep1(true)"><a>Pictures</a><p v-if="activeStep ==1">azertyuiopiuytrez</p></li>
@@ -113,9 +113,10 @@ h1 {
   text-align: left;
 }
 
-h5 {
+p {
+  font-weight: 300;
+  font-size: 23px;
   color: white;
-  opacity: 20%;
   text-align: left;
 }
 
