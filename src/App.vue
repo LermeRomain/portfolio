@@ -1,28 +1,22 @@
 <template>
   <div id="app">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link href="~bulma-timeline/dist/css/bulma-timeline.min.css" rel="stylesheet">
-    <Welcome/>
-    <Tech/>
-    <formulaire />
-    <parcour/>
+    <navbar/>
+    <router-view></router-view>
+    <foot />
   </div>
 
 </template>
 
 <script>
-import Welcome from "./components/Welcome.vue";
-import Tech from "@/components/Tech";
-import Parcour from "@/components/parcour";
-import Formulaire from "@/components/formulaire";
+import Navbar from "@/components/NavBar";
+import Foot from "@/components/foot";
 
 export default {
   name: 'App',
   components: {
-    Formulaire,
-    Parcour,
-    Tech,
-    Welcome,
+    Foot,
+    Navbar,
   }
 }
 </script>
