@@ -11,7 +11,7 @@
         <h1 class="title is-1">About Me</h1>
         <p class="subtitle is-5">Actuellement en master tech lead chef de projet digital, je suis à la recherche de
           ma prochaine alternance dans le milieu du développement web. Fort de
-          plusieurs années dans le milieu du digital et du développement j ai pu me former
+          plusieurs années dans le milieu du digital et du développement j'ai pu me former
           dans des entreprises très différentes allant de la multinationale, à la TPE. Je suis
           donc à la recherche d'une nouvelle opportunité qui me permettra d'apprendre
           encore plus sur ce milieu qui me passionne.</p>
@@ -56,7 +56,7 @@
           <li class="liste1"><span>Framework : </span><span>Symfony</span> et <span>Vuejs</span></li>
           <li class="liste1"><span>Front : HTMl/CSS</span> et <span>Javascript</span></li>
           <li class="liste1"><span>Back : PHP</span></li>
-          <li class="liste1"><span>SQL : </span> création et maintance d'une base de donnée complexe</li>
+          <li class="liste1"><span>SQL : </span> Création et maintance d'une base de donnée complexe</li>
           <li class="liste1"><span>Suite Abode</span></li>
           <li class="liste1"><span>Wordpress : </span>Création et maintenance d'un site <span>E-commerce / Landing Page / Portfolio</span>
           </li>
@@ -72,9 +72,12 @@
           <li class="liste1"><span>Développeur :</span> Inspection générale du Crédit Agricole, Montrouge</li>
         </ul>
         <div class="columns">
-        <div class="column"></div>
-        <a class="column link" href="https://drive.google.com/file/d/1Jsb51TsvYqjAbWM851-qmmaBN6o48ziN/view" target="_blank">CV</a>
-        <div class="column"></div>
+          <div class="column"></div>
+          <button>
+            <a class="column link" href="https://drive.google.com/file/d/1Jsb51TsvYqjAbWM851-qmmaBN6o48ziN/view"
+               target="_blank">CV</a>
+          </button>
+          <div class="column"></div>
         </div>
       </div>
     </div>
@@ -183,8 +186,27 @@ span {
   font-weight: 700;
 }
 
-.link{
+.link {
   margin-top: 3rem;
+}
+
+
+button {
+  border: 2px solid #f9004d;
+  background: #f9004d;
+  color: #fff;
+  font-size: 24px;
+  margin: 2rem;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+button:hover {
+  border: 2px solid #f9004d;
+  color: #f9004d;
+  background: transparent;
+  transition: 300ms;
+  transform: scale(1.1);
 }
 
 </style>
