@@ -73,7 +73,7 @@
         </ul>
         <div class="columns">
         <div class="column"></div>
-        <a class="column link" href="https://drive.google.com/file/d/1Jsb51TsvYqjAbWM851-qmmaBN6o48ziN/view" target="_blank">En savoir plus</a>
+        <a class="column link" href="https://drive.google.com/file/d/1Jsb51TsvYqjAbWM851-qmmaBN6o48ziN/view" target="_blank">CV</a>
         <div class="column"></div>
         </div>
       </div>
