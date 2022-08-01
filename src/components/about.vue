@@ -71,13 +71,13 @@
           <li class="liste1"><span>Webmaster :</span> Abil intérim, Paris</li>
           <li class="liste1"><span>Développeur :</span> Inspection générale du Crédit Agricole, Montrouge</li>
         </ul>
-        <div class="columns">
-          <div class="column"></div>
-          <button>
-            <a class="column link" href="https://drive.google.com/file/d/1Jsb51TsvYqjAbWM851-qmmaBN6o48ziN/view"
-               target="_blank">CV</a>
-          </button>
-          <div class="column"></div>
+        <div class="column">
+          <a class="link" href="https://drive.google.com/file/d/1Jsb51TsvYqjAbWM851-qmmaBN6o48ziN/view"
+             target="_blank">
+            <button>
+              Curriculum Vitae
+            </button>
+          </a>
         </div>
       </div>
     </div>
@@ -196,9 +196,18 @@ button {
   background: #f9004d;
   color: #fff;
   font-size: 24px;
-  margin: 2rem;
+  margin-top: 2rem;
   border-radius: 10px;
+  width: 100%;
   padding: 1rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
 }
 
 button:hover {
@@ -206,7 +215,7 @@ button:hover {
   color: #f9004d;
   background: transparent;
   transition: 300ms;
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
 </style>
