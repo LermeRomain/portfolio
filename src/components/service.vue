@@ -86,6 +86,7 @@ h4{
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: default;
 }
 
 .box:hover {
