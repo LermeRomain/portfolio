@@ -64,6 +64,7 @@
           <li class="liste1"><span>BTS : </span>Services informatique aux Organisations options SlAM</li>
         </ul>
         <ul class="liste" v-if="activeStep ==3">
+          <li class="liste1"><span>Développeur web / Webmaster :</span> Bakjy Group, Paris</li>
           <li class="liste1"><span>Développeur web / Webmaster :</span> Khadi & Co, Paris</li>
           <li class="liste1"><span>Webmaster :</span> Abil intérim, Paris</li>
           <li class="liste1"><span>Développeur :</span> Inspection générale du Crédit Agricole, Montrouge</li>

@@ -20,7 +20,7 @@
           <span class="typed-text">{{ typeValue }}</span>
           <span class="cursor" :class="{'typing': typeStatus}"></span>
         </h3>
-        <p>Je suis actuellement en Master 1 spécialité dévelopement web</p>
+        <p>Je suis actuellement en Master 2 spécialité dévelopement web</p>
         <a name="welcome"></a>
       </h2>
       <a class="fa-solid fa-arrow-down fa-4x smooth-scroll" href="#about" style="scroll-behavior: smooth;"></a>
