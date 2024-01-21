@@ -9,8 +9,15 @@
       <div class="column bg-img1">
         <div class="card-image">
           <h4>Development</h4>
-          <h3>Associ</h3>
-          <button class="button"><a href="https://associ.fr/">Go in</a></button>
+          <h3>Residor</h3>
+          <button class="button"><a href="http://residor-paris.com/">Go in</a></button>
+        </div>
+      </div>
+<div class="column bg-img1">
+        <div class="card-image">
+          <h4>Development</h4>
+          <h3>Openflats</h3>
+          <button class="button"><a href="https://openflats.fr/">Go in</a></button>
         </div>
       </div>
       <div class="column bg-img1">
@@ -23,35 +30,18 @@
       <div class="column bg-img1">
         <div class="card-image">
           <h4>Development</h4>
-          <h3>Fakebook</h3>
-          <button class="button"><a href="https://github.com/LermeRomain/facebook">Go in</a></button>
+          <h3>Groupe Bakjy</h3>
+          <button class="button"><a href="https://www.bakjy.com/">Go in</a></button>
+        </div>
+      </div>
+<div class="column bg-img1">
+        <div class="card-image">
+          <h4>Development</h4>
+          <h3>Bakjy Skills</h3>
+          <button class="button"><a href="https://bakjyskills.fr/">Go in</a></button>
         </div>
       </div>
     </div>
-
-<!--    <div class="columns columns1">
-      <div class="column bg-img1">
-        <div class="card-image">
-          <h4>Development</h4>
-          <h3>My Awesome Service</h3>
-          <button class="button">Go in</button>
-        </div>
-      </div>
-      <div class="column bg-img1">
-        <div class="card-image">
-          <h4>Development</h4>
-          <h3>My Awesome Service</h3>
-          <button class="button">Go in</button>
-        </div>
-      </div>
-      <div class="column bg-img1">
-        <div class="card-image">
-          <h4>Development</h4>
-          <h3>My Awesome Service</h3>
-          <button class="button">Go in</button>
-        </div>
-      </div>
-    </div>-->
   </section>
 </template>
 
