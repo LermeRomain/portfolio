@@ -9,9 +9,10 @@
       </div>
       <div class="column is-7">
         <h1 class="title is-1">About Me</h1>
-        <p class="subtitle is-5">Actuellement en master tech lead chef de projet digital. Fort de plusieurs années dans
-          le milieu du digital et du développement j'ai pu me former dans des entreprises très différentes allant de la
-          multinationale, à la TPE. </p>
+        <p class="subtitle is-5">Actuellement titulaire d un mastère expert en stratégie digitale avec une spécialité en
+tech lead, j ai acquis une solide expérience dans le domaine du digital et du
+développement. Mon parcours m a conduit à travailler dans des entreprises de
+différentes tailles, allant de multinationales à des TPE.</p>
 
         <!--          <ul>
                     <li @click.prevent="nextStep1(true)"><a>Pictures</a><p v-if="activeStep ==1">azertyuiopiuytrez</p></li>
